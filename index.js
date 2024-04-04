@@ -16,9 +16,9 @@ scrape({
     maxDepth: 50,
     prettifyUrls: true,
     filenameGenerator: 'bySiteStructure',
-    directory: './node-website'
+    directory: 'akashsuu'
 }).then((data) => {
-    console.log("Entire website succesfully downloaded");
+    console.log("ho gai bhai teri web site clone moj mar");
 }).catch((err) => {
-    console.log("An error ocurred", err);
+    console.log("bkl link to dal le sahi se", err);
 });
